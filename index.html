@@ -3,8 +3,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft</title>
   <link rel="stylesheet" href="/style.css">
@@ -12,20 +12,26 @@
 
 <body>
 
+
+  <img class="img" src="/img/bikcraft.svg" alt="título">
+
   <header>
-    <img src="/img/bikcraft.svg" alt="título">
+    <nav aria-label="primaria">
+      <ul>
+        <li>
+          <a href="/">SOBRE</a>
+          <a href="/">PRODUTOS</a>
+          <a href="/">LOJAS</a>
+          <a href="/">CONTATO</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <nav class="titulo" aria-label="primaria">
-    <a class="a" href="/">SOBRE</a>
-    <a class="a" href="/">PRODUTOS</a>
-    <a class="a" href="/">LOJAS</a>
-    <a class="a" href="/">CONTATO</a>
-  </nav>
 
-  <main class="conteudo">
-    <article aria-label="sobre a bikcraft" class="introducao">
-      <span class="detalhe"></span>
+  <main>
+    <article aria-label="sobre a bikcraft">
+      <!-- <span class="detalhe"></span> -->
       <h1>Bicicletas Feitas a Mão</h1>
       <p>A Ninbus Stark é a melhor Bikecraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
       <nav aria-label="secundaria">
@@ -36,32 +42,37 @@
 
     <img class="img" src="/img/bicicleta.jpg" alt="">
 
-    <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
 
-    <div class="vantagens">
-      <div class="vantagens-itens">
+    <div>
+      <img src="/img/onda.svg" alt="onda">
+      <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
+    </div>
+
+
+    <ul class="vantagens">
+      <li class="vantagens-itens">
         <img class="img1" src="/img/eletrica.svg" alt="">
         <h3>Motor Elétrico</h3>
         <p>Permite você viajar distâncias inimaginaveis com sua bike</p>
-      </div>
+      </li>
 
-      <div class="vantagens-itens">
+      <li class="vantagens-itens">
         <img class="img2" src="/img/velocidade.svg" alt="">
         <h3>40 km/h</h3>
         <p> A mais rapida bicicleta elétrica disponível hoje no mercado</p>
-      </div>
+      </li>
 
-      <div class="vantagens-itens">
+      <li class="vantagens-itens">
         <img class="img3" src="/img/rastreador.svg" alt="">
         <h3>Rastreador</h3>
         <p>Rastreador e sistema anti-furto para garantir o seu sossego</p>
-      </div>
-    </div>
+      </li>
+    </ul>
   </main>
 
-  <div class="rodape">
+  <footer class="rodape">
     <p>Bikcraft. Alguns Direitos Reservados</p>
-  </div>
+  </footer>
 
 </body>
 
