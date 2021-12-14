@@ -2,12 +2,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
   margin: 0rem;
   display: grid;
-  justify-items: center;
   gap: 3.7rem;
+  justify-items: center;
   margin-top: 3.7rem;
+  background-color: #f7f7f7;
 }
 
 img {
@@ -48,20 +48,20 @@ p {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1.5rem;
+  justify-content: center;
   /* list-style: none; */
   /* margin-right: 80px; */
 }
 
 .menu a {
-  /* display: block; */
-  background-color: white;
+  display: block;
+  background-color: #fff;
   padding: 1rem 2rem;
   border-radius: 6px;
   color: #000;
+  /* margin: 0px 10px; */
   border: 2px solid transparent;
-  margin: 0px 10px;
   transition: 0.2s;
 }
 
@@ -69,7 +69,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-
 }
 
 .introducao {
@@ -124,7 +123,6 @@ p {
 .vantagens-item p {
   grid-column: 2;
   /* font-weight: bold */
-
 }
 
 .rodape {
@@ -158,7 +156,7 @@ nav .a2:focus {
   background: rgb(131, 25, 25);
 }
 
-.introdução h1::before {
+.detalhe::before {
   content: "";
   display: inline-block;
   width: 3.1rem;
@@ -187,11 +185,51 @@ nav .a2:focus {
   left: 38px;
 } */
 
-
 /* Responsive */
 
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 @media (max-width: 1000px) {
-  .vantagens {
+  .conteudo-vantagem {
     grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .detalhe::before {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
