@@ -190,7 +190,6 @@ ul a:focus {
   content: "";
   display: inline-block;
   width: 0.25rem;
-  height: 7rem;
   background: #e21;
   position: absolute;
   left: 38px;
