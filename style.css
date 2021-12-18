@@ -95,7 +95,7 @@ p {
 .botao {
   background-color: rgba(238, 35, 17, 0.63);
   display: inline-block;
-  color: #868585;
+  color: #000;
   padding: 1rem 2rem;
   border-radius: 5px;
   transition: 0.3s;
