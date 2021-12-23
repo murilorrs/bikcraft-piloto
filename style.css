@@ -7,7 +7,7 @@ body {
   gap: 3.7rem;
   justify-items: center;
   margin-top: 3.7rem;
-  background-color: #1c1e20;
+  background-color: #000 ;
 }
 
 
@@ -42,6 +42,8 @@ p {
 }
 
 /* Ajuste Grid  */
+
+.title
 
 .header {
   display: grid;
