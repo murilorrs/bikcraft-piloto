@@ -128,7 +128,7 @@ p {
 
 .botao {
   background: var(--cor_principal);
-  color: var(--fundo2);
+  color: #fff;
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
